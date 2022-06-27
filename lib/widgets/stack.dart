@@ -66,8 +66,7 @@ class _stackWidgetState extends State<stackWidget> {
                   ),
                   Text(
                     "Hamburger",
-                    style: const TextStyle(
-                        fontFamily: 'Valorant', color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
+                    style: const TextStyle(color: Colors.white, fontSize: 20, fontWeight: FontWeight.bold),
                   ),
                 ],
               ),
@@ -80,7 +79,7 @@ class _stackWidgetState extends State<stackWidget> {
             top: MediaQuery.of(context).size.height / 200,
             right: MediaQuery.of(context).size.width / 45,
             child: Hero(
-              tag: "agent",
+              tag: "t",
               child:
                   Container(width: 50, height: 50, child: Image.asset('assets/img/hamburger.jpg', fit: BoxFit.contain)),
             )),
